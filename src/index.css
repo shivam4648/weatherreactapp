@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #dbf6e9; 
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box{
+    background-color: #9ddfd3;
+    width: 21rem;
+    height: 28rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 4px #5c5a5bdc;
+}
+
+.searchBox{
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar{
+    width: 18rem;
+    height: 3rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border-style: none;
+    text-align: center;
+    outline: none;
+    background-color: rgba(255, 253, 253, 0.411);
+    box-shadow: 0 2px 4px #5c5a5bdc;;
+}
+
+.cityDiv{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cityDiv h1{
+    font-size: 2.5rem;
+    color: rgb(58, 57, 57)
+}
+
+.cityDiv img{
+    width: 5rem;
+}
+
+.date{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.date p{
+    color: grey;
+}
+
+.tempDiv{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.tempDiv h2{
+    font-size: 4rem;
+    color: rgb(80, 79, 79);
+}
+
+.minMax{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.minMax p{
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.cityFoundErr{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: xx-large;
+    color: rgb(95, 94, 94);
+}
